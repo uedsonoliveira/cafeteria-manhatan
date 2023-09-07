@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    background-color: #604829;
+    width: 100vw;
+    height: 13%;
+    padding: 0% 20%;
+    position: fixed;
+    z-index: 1;
+}
+
+.img-nav-bar{
+    width: 10%;
+    position: relative;
+}
+
+.btn-nav-bar{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: #c4a47c;
+    position: relative;
+    bottom:30%;
+    left: 40%;
+    padding: 0px 50px;
+}
+
+.secao1 h1{
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    font-size: 50px;
+    display: inline;
+    box-shadow: 0px 0px 10px #fff;
+    position: absolute;
+    left: 20%;
+    bottom: 35%;
+}
+
+.parallax-1{
+    background-image: url("img/parallax-imagem1.png");
+}
+
+.parallax-2{
+    background-image: url("img/parallax-imagem2.jpg");
+}
+
+.parallax-3{
+    background-image: url("img/parallax-imagem3.jpg");
+}
+
+.parallax-4{
+    background-image: url("img/parallax-imagem4.png");
+}
+
+.parallax-5{
+    background-image: url("img/cafeteria.jpg");
+}
+
+.parallax-1, .parallax-2, .parallax-3, .parallax-4, .parallax-5{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.secao-informacao{
+    width: 100%;
+    padding: 0 20%;
+}
+
+.secao-informacao h2{
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.secao-informacao p{
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    line-height: 30px;
+}
+
+.secao-parallax{
+    width: 100%;
+    margin: 0 33%;
+}
+
+.secao-parallax h2{
+    font-size: 40px;
+    font-family: 'Fraunces';
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0px 10px 50px #ffffff;
+    background-color: #604829;
+    color: #ffffff;
+    position: absolute;
+    bottom: 40%;
+}
+
+.secao-contato{
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.secao-contato h2{
+    box-shadow: 0px 0px 20px 10px #ffffff;
+    display: inline;
+    background-color: #604829;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.secao-contato iframe{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 50vh;
+    display: block;
+}
+
+.secao-contato p{
+    box-shadow: 0px 0px 20px 10px #ffffff;
+    background-color: #604829;
+    color: #ffffff;
+    line-height: 30px;
+    margin: 0 30%;
+}
+
+.secao-horario h2{
+    padding-top: 7%;
+    padding-bottom: 2%;
+    text-align: center;
+    color:#fff;
+}
+
+.secao-horario .lista li{
+    color: #ffffff;
+    position: relative;
+    padding: 2%;
+}
+
+.lista li h3{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.lista li div{
+    width: 50%;
+    height: 5px;
+    background-color: #acacac;
+    margin: 0 auto;
+}
+
+.lista li p{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.lista span{
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 3px #c4a47c;
+}
+
+.rodape{
+    position: relative;
+    width: 100%;
+}
+
+.rodape a{
+    position: absolute;
+    top: -50px;
+    left: 75%;
+}
+
+.rodape p{
+    text-align: center;
+    background-color: #604829;
+    color:#ffffff;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+
+
